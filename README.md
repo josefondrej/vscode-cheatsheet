@@ -32,12 +32,14 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 | `Alt + Arrow Up / Down`                                           | Move Current Line Up / Down                                                    |
 | `Ctrl + L`                                                        | Select Current Line                                                            |
 | `Ctrl + /`                                                        | Un/Comment Selected Code                                                       |
-| ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
-| ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
 | `Ctrl + Shift + 5`                                                | Split Terminal                                                                 |
 | `Shift + Alt + .`                                                 | Quick Fix                                                                      |
-| `Ctrl + K + J` | Expand All Lines of Code |
-| `Ctrl + K + 1/2/...` | Fold Code at Level n |
+| `Ctrl + K + J`                                                    | Expand All Lines of Code                                                       |
+| `Ctrl + K + 1/2/...`                                              | Fold Code at Level n                                                           |
+| `Ctrl + ,`                                                        | Search Settings                                                                |
+| `Alt + Z`                                                         | Toggle Word Wrap                                                               |
+| ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
+| ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
 
 ## Terminal
 
@@ -60,6 +62,7 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 
 - `Remote Developement` - to connect to a remote server / to use a Docker container as your dev environment etc.
 - `Black Formatter` - format Python code
+- `isort` - import sorting for Python
 
 ## Custom Snippets
 
@@ -76,7 +79,7 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 
 - New file at a location in explorer
 - Move to left / right tab in editor
-- What is and how to use `settings.json`
+- What is and how to use `settings.json` (and should you version control this? -- settings.json, launch.json, tasks.json yes but the rest in .vscode no)
 - What is and how to use `*.code-workspace`
 - Rename a variable / class / function
 - Move a variable / class / function
@@ -85,3 +88,7 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 - Python: Format code
 - Show Options ()
 - How to persist project settings (like wrapping lines in editor)
+- One command for commit / push / update project (Ctrl + T in PyCharm)
+- Is there a possibility to un/stage file in file explorer?
+- Hotkey to open the commits list
+- User vs Project settings
