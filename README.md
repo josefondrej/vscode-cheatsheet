@@ -18,6 +18,7 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 
 | Shortcut                                                          | What it does                                                                   |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| `Ctrl + 1`                                                        | Focus Editor                                                                   |
 | `Ctrl + Shift + I`                                                | Format Document                                                                |
 | `Ctrl + P`                                                        | Go to File                                                                     |
 | `Ctrl + P` + `>` / `Ctrl + Shift + P`                             | Show All Commands                                                              |
