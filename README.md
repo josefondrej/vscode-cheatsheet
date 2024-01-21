@@ -91,15 +91,21 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | Git: Commit                 |
 | Git: Push                   |
 | Git: Revert Selected Ranges |
+| Git: Pull Rebase            |
+| Git: Show History           |
 | Left / Right Tab            |
 | File: New Folder            |
 
 ## TODO
 
+**General Settings**
+
 - What is and how to use `settings.json` (and should you version control this? -- settings.json, launch.json, tasks.json yes but the rest in .vscode no)
 - What is and how to use `*.code-workspace`
 - How to persist project settings (like wrapping lines in editor)
 - User vs Project settings
+
+**Python Specific**
 
 - Rename a variable / class / function
 - Move a variable / class / function
@@ -107,6 +113,5 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - Python: Optimize imports
 - Python: Format code
 - Show Options (in code)
-
-- One command for commit / push / update project (Ctrl + T in PyCharm)
-- Hotkey to open the commits list
+- Debugging
+- Execute code in console
