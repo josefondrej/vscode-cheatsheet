@@ -15,6 +15,8 @@ code /path/to/project/directory
 ## Useful Shortcuts
 
 To list all the shortcuts use `Ctrl + K, Ctrl + S`
+Alternatively for the default values see [windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) cheatsheets online.
 
 | Shortcut                                                          | What it does                                                                   |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------|
@@ -39,6 +41,9 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 | `Ctrl + K + 1/2/...`                                              | Fold Code at Level n                                                           |
 | `Ctrl + ,`                                                        | Search Settings                                                                |
 | `Alt + Z`                                                         | Toggle Word Wrap                                                               |
+| `Ctrl + Shift + Insert`                                           | Insert a New File                                                              |
+| `Ctrl + Shift + V`                                                | Preview Markdown                                                               |
+| `Ctrl + K` + `Ctrl + Page Up / Down`                              | Open Next / Previous Editor in Group                                           |
 | ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
 | ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
 
@@ -56,7 +61,7 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 
 - To open Git press `Shift + Ctrl + G` + `G`
 - In the dropdown menu `...` we get a list of all possible Git commands
-- `GitLens` extension is really useful
+- `Git History`, `GitLens` extension is really useful
 - `Remote Repositories` extension > Click the `><` button in the left bottom corner > Open Remote Repository
 
 ## Useful Plugins
@@ -64,6 +69,8 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 - `Remote Developement` - to connect to a remote server / to use a Docker container as your dev environment etc.
 - `Black Formatter` - format Python code
 - `isort` - import sorting for Python
+- `Git History` / `GitLens` - see the Git section
+- `Remote Repositories` - see the Git section
 
 ## Custom Snippets
 
@@ -76,20 +83,30 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 - To format document use: `Ctrl + Shift + I`
 - To configure multiple formatters, use the [Multiple Formatters](https://marketplace.visualstudio.com/items?itemName=Jota0222.multi-formatter) extension
 
+## Useful Commands Not Bound to Any Shortcut or with a Difficult Shortcut
+
+| Command                     |
+|-----------------------------|
+| Git                         |
+| Git: Commit                 |
+| Git: Push                   |
+| Git: Revert Selected Ranges |
+| Left / Right Tab            |
+| File: New Folder            |
+
 ## TODO
 
-- New file at a location in explorer
-- Move to left / right tab in editor
 - What is and how to use `settings.json` (and should you version control this? -- settings.json, launch.json, tasks.json yes but the rest in .vscode no)
 - What is and how to use `*.code-workspace`
+- How to persist project settings (like wrapping lines in editor)
+- User vs Project settings
+
 - Rename a variable / class / function
 - Move a variable / class / function
 - Find all usages of class / function
 - Python: Optimize imports
 - Python: Format code
-- Show Options ()
-- How to persist project settings (like wrapping lines in editor)
+- Show Options (in code)
+
 - One command for commit / push / update project (Ctrl + T in PyCharm)
-- Is there a possibility to un/stage file in file explorer?
 - Hotkey to open the commits list
-- User vs Project settings
