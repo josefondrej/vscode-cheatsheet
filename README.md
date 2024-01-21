@@ -96,6 +96,25 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | Left / Right Tab            |
 | File: New Folder            |
 
+## Workspaces
+
+Workspace = collection of 1 or more folders opened in VS Code.
+
+- For 1 folder you don't have to do anything (just open it in VS Code)
+- For more folders you need to create `<name>.code-workspace` file that lists the folders of the workspace
+
+## Config Files
+
+There are 2 levels at which various settings of the IDE can be configured:
+
+- User Settings
+- Workspace Settings
+
+To modify the settings: `Ctrl + Shift + P` > `Preferences: Open User/Workspace Settings`
+
+The settings can be viewed in UI or as a `settings.json` file that lives under `.vscode` in case of the workspace settings and
+in the `~/.config/Code/User` in case of the user settings.
+
 ## TODO
 
 ### General Settings
