@@ -50,6 +50,10 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Shift + F9`                                                      | Set line breakpoint                                                            |
 | `Ctrl + .`                                                        | Show Actions                                                                   |
 | `Shift + Enter`                                                   | Execute Selection in Console                                                   |
+| `F2`                                                              | Rename function / class / object                                               |
+| `F12`                                                             | Go to Definition / Show Implementations                                        |
+| `Ctrl + Shift + -` / `Ctrl + Alt + -`                             | Navigate Forward / Backward                                                    |
+| `Alt + Shift + O` | Optimize Imports |
 | ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
 | ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
 
@@ -130,17 +134,17 @@ Are specified in `.vscode/launch.json` file
 
 ## TODO
 
-### Tools, formatting etc
+### Clean Up and Organize This README.md
+
+### Tools
 
 - pyproject.toml
+- Poetry
 - Black
 - isort
 - flake8
 - mypy
 
-### Python Specific
+### Python
 
-- Rename a variable / class / function
-- Move a variable / class / function
-- Find all usages of class / function
-- Python: Optimize imports
+- Remove unused imports
