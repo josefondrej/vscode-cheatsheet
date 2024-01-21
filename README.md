@@ -44,6 +44,12 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Ctrl + Shift + Insert`                                           | Insert a New File                                                              |
 | `Ctrl + Shift + V`                                                | Preview Markdown                                                               |
 | `Ctrl + K` + `Ctrl + Page Up / Down`                              | Open Next / Previous Editor in Group                                           |
+| `F8`                                                              | Show Problems                                                                  |
+| `Ctrl + F5`                                                       | Run                                                                            |
+| `F5`                                                              | Debug                                                                          |
+| `Shift + F9`                                                      | Set line breakpoint                                                            |
+| `Ctrl + .`                                                        | Show Actions                                                                   |
+| `Shift + Enter`                                                   | Execute Selection in Console                                                   |
 | ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
 | ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
 
@@ -103,7 +109,10 @@ Workspace = collection of 1 or more folders opened in VS Code.
 - For 1 folder you don't have to do anything (just open it in VS Code)
 - For more folders you need to create `<name>.code-workspace` file that lists the folders of the workspace
 
-## Config Files
+It can be useful to set workspace file (or more) also for a single folder as different workspace files can
+give different "views" on the folder
+
+## IDE Settings
 
 There are 2 levels at which various settings of the IDE can be configured:
 
@@ -115,14 +124,19 @@ To modify the settings: `Ctrl + Shift + P` > `Preferences: Open User/Workspace S
 The settings can be viewed in UI or as a `settings.json` file that lives under `.vscode` in case of the workspace settings and
 in the `~/.config/Code/User` in case of the user settings.
 
+## Launch Configurations
+
+Are specified in `.vscode/launch.json` file
+
 ## TODO
 
-### General Settings
+### Tools, formatting etc
 
-- What is and how to use `settings.json` (and should you version control this? -- settings.json, launch.json, tasks.json yes but the rest in .vscode no)
-- What is and how to use `*.code-workspace`
-- How to persist project settings (like wrapping lines in editor)
-- User vs Project settings
+- pyproject.toml
+- Black
+- isort
+- flake8
+- mypy
 
 ### Python Specific
 
@@ -130,7 +144,3 @@ in the `~/.config/Code/User` in case of the user settings.
 - Move a variable / class / function
 - Find all usages of class / function
 - Python: Optimize imports
-- Python: Format code
-- Show Options (in code)
-- Debugging
-- Execute code in console

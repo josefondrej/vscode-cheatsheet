@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vscode-cheatsheet"
+version = "0.1.0"
+description = "A cheatsheet for VS Code"
+authors = ["Josef Ondrej"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+# flake8 = "^4.0.1"
+# mypy = "^0.910"
+# isort = "^5.9.3"
+# pytest = "^6.2.5"
+
+[tool.black]
+line-length = 120
