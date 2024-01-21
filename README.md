@@ -98,14 +98,14 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ## TODO
 
-**General Settings**
+### General Settings
 
 - What is and how to use `settings.json` (and should you version control this? -- settings.json, launch.json, tasks.json yes but the rest in .vscode no)
 - What is and how to use `*.code-workspace`
 - How to persist project settings (like wrapping lines in editor)
 - User vs Project settings
 
-**Python Specific**
+### Python Specific
 
 - Rename a variable / class / function
 - Move a variable / class / function
