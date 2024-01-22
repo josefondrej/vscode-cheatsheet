@@ -19,7 +19,7 @@ Alternatively for the default values see [windows](https://code.visualstudio.com
 or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) cheatsheets online.
 
 | Shortcut                                                          | What it does                                                                   |
-|-------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | `Ctrl + 1`                                                        | Focus Editor                                                                   |
 | `Ctrl + Shift + I`                                                | Format Document                                                                |
 | `Ctrl + P`                                                        | Go to File                                                                     |
@@ -53,7 +53,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `F2`                                                              | Rename function / class / object                                               |
 | `F12`                                                             | Go to Definition / Show Implementations                                        |
 | `Ctrl + Shift + -` / `Ctrl + Alt + -`                             | Navigate Forward / Backward                                                    |
-| `Alt + Shift + O` | Optimize Imports |
+| `Alt + Shift + O`                                                 | Optimize Imports                                                               |
 | ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
 | ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
 
@@ -76,12 +76,28 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ## Useful Plugins
 
-- `Remote Developement` - to connect to a remote server / to use a Docker container as your dev environment etc.
-- `Black Formatter` - format Python code
-- `isort` - import sorting for Python
-- `Git History` / `GitLens` - see the Git section
-- `Remote Repositories` - see the Git section
-
+- `Remote Developement` - Connect to a remote server / to use a Docker container as your dev environment etc.
+- `Black Formatter` - Format Python code
+- `isort` - Import sorting for Python
+- `Flake8` - Linting support for Python
+- `Git History` / `GitLens` - See the Git section
+- `Remote Repositories` - See the Git section
+- `Mypy Type Checker` - Type checking for Python files
+- `SQLTools` - Working with relational databases (+ `SQLTools PostgreSQL/Cockroach Driver`, `SQLTools Oracle Driver`)
+- `GitHub Copilot` - AI Autocompletion
+- `Better Comments`
+- `autoDocstring`
+- `CodeSnap` - Beautiful screenshots of code
+- `Edit csv` - Editing of CSV files
+- `Code Spell Checker` - Spelling checker for code
+- `Git Graph` - View commit history
+- `HTML CSS Support` - CSS Intellisense for HTML
+- `Jupyter` - Jupyter notebook support
+- `Markdown All in One`, `markdownlint` - Tools for writing Markdown
+- `MongoDB for VS Code` - Connect to MongoDB Atlas
+- `Path Intellisense` - Autocompletion for paths
+- `Python Environment Manager` - Manage Python environments
+  
 ## Custom Snippets
 
 - To configure new snippet use: `Ctrl + Shift + P` > `Configure User Snippets`
@@ -96,7 +112,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 ## Useful Commands Not Bound to Any Shortcut or with a Difficult Shortcut
 
 | Command                     |
-|-----------------------------|
+| --------------------------- |
 | Git                         |
 | Git: Commit                 |
 | Git: Push                   |
