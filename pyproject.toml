@@ -9,10 +9,21 @@ python = "^3.10"
 
 [tool.poetry.dev-dependencies]
 black = "^21.9b0"
-# flake8 = "^4.0.1"
-# mypy = "^0.910"
-# isort = "^5.9.3"
-# pytest = "^6.2.5"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+isort = "^5.9.3"
+pytest = "^6.2.5"
 
 [tool.black]
 line-length = 120
+target-version = ["py38", "py39", "py310"]
+
+[tool.flake8]
+max-line-length = 120
+exclude = [".git", "__pycache__", ".venv", ".vscode", "build", "dist"]
+max-complexity = 10
+
+[tool.isort]
+line_length = 120
+atomic = true
+profile = "black"
