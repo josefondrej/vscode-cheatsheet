@@ -19,7 +19,7 @@ Alternatively for the default values see [windows](https://code.visualstudio.com
 or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) cheatsheets online.
 
 | Shortcut                                                          | What it does                                                                   |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+|-------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | `Ctrl + 1`                                                        | Focus Editor                                                                   |
 | `Ctrl + Shift + I`                                                | Format Document                                                                |
 | `Ctrl + P`                                                        | Go to File                                                                     |
@@ -53,6 +53,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `F2`                                                              | Rename function / class / object                                               |
 | `F12`                                                             | Go to Definition / Show Implementations                                        |
 | `Ctrl + Shift + -` / `Ctrl + Alt + -`                             | Navigate Forward / Backward                                                    |
+| `Ctrl + Space`                                                    | Show Docstring                                                                 |g
 | `Alt + Shift + O`                                                 | Optimize Imports                                                               |
 | ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
 | ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
@@ -112,7 +113,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 ## Useful Commands Not Bound to Any Shortcut or with a Difficult Shortcut
 
 | Command                     |
-| --------------------------- |
+|-----------------------------|
 | Git                         |
 | Git: Commit                 |
 | Git: Push                   |
