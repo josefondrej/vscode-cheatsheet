@@ -35,6 +35,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `F12`                                                             | Go to Definition / Show Implementations                                        |
 | `Ctrl + Shift + -` / `Ctrl + Alt + -`                             | Navigate Forward / Backward                                                    |
 | `Ctrl + Space`                                                    | Show Docstring                                                                 |
+| `Ctrl + Shift + M`                                                | Show Problems in the Current File                                              |
 | &nbsp;                                                            |                                                                                |
 | **Git**                                                           |                                                                                |
 | `Ctrl + Shift + G` + `G`                                          | Open Git                                                                       |
