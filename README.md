@@ -4,15 +4,9 @@
 
 - [Fireship: 25 VS Code Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI?feature=shared)
 
-## Project & Files
-
-Open a project in VSCode
-
-```bash
-code /path/to/project/directory
-```
-
 ## Useful Shortcuts
+
+To open a project in VS Code, in terminal type `code /path/to/your/project`
 
 To list all the shortcuts use `Ctrl + K, Ctrl + S`
 Alternatively for the default values see [windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
@@ -20,60 +14,75 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 | Shortcut                                                          | What it does                                                                   |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **File Navigation**                                               |                                                                                |
+| `Ctrl + Shift + E`                                                | Open File Explorer                                                             |
 | `Ctrl + 1`                                                        | Focus Editor                                                                   |
-| `Ctrl + Shift + I`                                                | Format Document                                                                |
 | `Ctrl + P`                                                        | Go to File                                                                     |
 | `Ctrl + P` + `>` / `Ctrl + Shift + P`                             | Show All Commands                                                              |
 | `Ctrl + P` + `@` / `Ctrl + Shift + O` / `Ctrl + Shift + .`        | Go to Symbol in Editor                                                         |
 | `Ctrl + P` + `#`  / `Ctrl + T`                                    | Go to Symbol in Workspace (for a class called MyAwesomeClass you can type MAC) |
 | `Ctrl + P` + `:` / `Ctrl + G`                                     | Go to Line / Column                                                            |
 | `Ctrl + -/+`                                                      | Zoom in / out                                                                  |
-| `Ctrl + D`                                                        | Highlite All Occurences                                                        |
-| `Ctrl + D` / `Alt + Left Click` / `Alt + Shift + Arrow Up / Down` | Multi Cursor                                                                   |
 | `Ctrl + W`                                                        | Close Tab                                                                      |
+| `Ctrl + Shift + Insert`                                           | Insert a New File                                                              |
+| `Ctrl + K` + `Ctrl + Page Up / Down`                              | Open Next / Previous Editor in Group                                           |
+| &nbsp;                                                            |                                                                                |
+| **Code Navigation**                                               |                                                                                |
+| `Ctrl + D`                                                        | Highlite All Occurences                                                        |
+| `Ctrl + K + J`                                                    | Expand All Lines of Code                                                       |
+| `Ctrl + K + 1/2/...`                                              | Fold Code at Level n                                                           |
+| `Alt + Z`                                                         | Toggle Word Wrap                                                               |
+| `F12`                                                             | Go to Definition / Show Implementations                                        |
+| `Ctrl + Shift + -` / `Ctrl + Alt + -`                             | Navigate Forward / Backward                                                    |
+| `Ctrl + Space`                                                    | Show Docstring                                                                 |
+| &nbsp;                                                            |                                                                                |
+| **Git**                                                           |                                                                                |
+| `Ctrl + Shift + G` + `G`                                          | Open Git                                                                       |
+| &nbsp;                                                            |                                                                                |
+| **Formatting / Refactoring**                                      |                                                                                |
+| `Ctrl + Shift + I`                                                | Format Document                                                                |
+| `Alt + Shift + O`                                                 | Optimize Imports                                                               |
+| `Ctrl + D` / `Alt + Left Click` / `Alt + Shift + Arrow Up / Down` | Multi Cursor                                                                   |
 | `Ctrl + X`                                                        | Cut Current Line                                                               |
 | `Alt + Arrow Up / Down`                                           | Move Current Line Up / Down                                                    |
 | `Ctrl + L`                                                        | Select Current Line                                                            |
 | `Ctrl + /`                                                        | Un/Comment Selected Code                                                       |
-| `Ctrl + Shift + 5`                                                | Split Terminal                                                                 |
 | `Shift + Alt + .`                                                 | Quick Fix                                                                      |
-| `Ctrl + K + J`                                                    | Expand All Lines of Code                                                       |
-| `Ctrl + K + 1/2/...`                                              | Fold Code at Level n                                                           |
-| `Ctrl + ,`                                                        | Search Settings                                                                |
-| `Alt + Z`                                                         | Toggle Word Wrap                                                               |
-| `Ctrl + Shift + Insert`                                           | Insert a New File                                                              |
-| `Ctrl + Shift + V`                                                | Preview Markdown                                                               |
-| `Ctrl + K` + `Ctrl + Page Up / Down`                              | Open Next / Previous Editor in Group                                           |
 | `F8`                                                              | Show Problems                                                                  |
+| `F2`                                                              | Rename function / class / object                                               |
+| &nbsp;                                                            |                                                                                |
+| **Terminal**                                                      |                                                                                |
+| `Ctrl + Shift + 5`                                                | Split Terminal                                                                 |
+| `Ctrl + backtick` / `Ctrl + J`                                    | Open Terminal                                                                  |
+| `Ctrl + Shift + backtick`                                         | New Terminal                                                                   |
+| &nbsp;                                                            |                                                                                |
+| **Settings**                                                      |                                                                                |
+| `Ctrl + ,`                                                        | Search Settings                                                                |
+| &nbsp;                                                            |                                                                                |
+| **Run and Debug**                                                 |                                                                                |
 | `Ctrl + F5`                                                       | Run                                                                            |
 | `F5`                                                              | Debug                                                                          |
 | `Shift + F9`                                                      | Set line breakpoint                                                            |
 | `Ctrl + .`                                                        | Show Actions                                                                   |
 | `Shift + Enter`                                                   | Execute Selection in Console                                                   |
-| `F2`                                                              | Rename function / class / object                                               |
-| `F12`                                                             | Go to Definition / Show Implementations                                        |
-| `Ctrl + Shift + -` / `Ctrl + Alt + -`                             | Navigate Forward / Backward                                                    |
-| `Ctrl + Space`                                                    | Show Docstring                                                                 |g
-| `Alt + Shift + O`                                                 | Optimize Imports                                                               |
-| ``Ctrl + ` ``  / `Ctrl + J`                                       | Open Terminal                                                                  |
-| ``Ctrl + Shift + ` ``                                             | New Terminal                                                                   |
+| &nbsp;                                                            |                                                                                |
+| **Other**                                                         |                                                                                |
+| `Ctrl + Shift + V`                                                | Preview Markdown                                                               |
 
-## Terminal
+### Useful Commands without a (reasonable) Shortcut
 
-- To start the terminal press ``Ctrl + ` ``
-- You can change color / name of the terminal window
-
-## Tasks
-
-- To create a task: `Ctrl + Shift + P` > `Configure Default Build Task`
-- To run it: `Ctrl + Shift + P` > `Run Task`
-
-## Git
-
-- To open Git press `Shift + Ctrl + G` + `G`
-- In the dropdown menu `...` we get a list of all possible Git commands
-- `Git History`, `GitLens` extension is really useful
-- `Remote Repositories` extension > Click the `><` button in the left bottom corner > Open Remote Repository
+| Command                      |
+|------------------------------|
+| Git                          |
+| Git: Commit                  |
+| Git: Push                    |
+| Git: Revert Selected Ranges  |
+| Git: Pull Rebase             |
+| Git: Show History            |
+| Left / Right Tab             |
+| File: New Folder             |
+| Git Stage                    |
+| Python Remove Unused Imports |
 
 ## Useful Plugins
 
@@ -98,31 +107,8 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - `MongoDB for VS Code` - Connect to MongoDB Atlas
 - `Path Intellisense` - Autocompletion for paths
 - `Python Environment Manager` - Manage Python environments
+- `Scratchpads` - Create new scratch files
   
-## Custom Snippets
-
-- To configure new snippet use: `Ctrl + Shift + P` > `Configure User Snippets`
-- To insert snippet `Ctrl + Shift + P` > `Insert Snippet`
-- Often snippets can be installed as extensions
-
-## Code Formatting
-
-- To format document use: `Ctrl + Shift + I`
-- To configure multiple formatters, use the [Multiple Formatters](https://marketplace.visualstudio.com/items?itemName=Jota0222.multi-formatter) extension
-
-## Useful Commands Not Bound to Any Shortcut or with a Difficult Shortcut
-
-| Command                     |
-|-----------------------------|
-| Git                         |
-| Git: Commit                 |
-| Git: Push                   |
-| Git: Revert Selected Ranges |
-| Git: Pull Rebase            |
-| Git: Show History           |
-| Left / Right Tab            |
-| File: New Folder            |
-
 ## Workspaces
 
 Workspace = collection of 1 or more folders opened in VS Code.
@@ -149,19 +135,36 @@ in the `~/.config/Code/User` in case of the user settings.
 
 Are specified in `.vscode/launch.json` file
 
+## Terminal
+
+- To start the terminal press ``Ctrl + ` ``
+- You can change color / name of the terminal window
+
+## Tasks
+
+- To create a task: `Ctrl + Shift + P` > `Configure Default Build Task`
+- To run it: `Ctrl + Shift + P` > `Run Task`
+
+## Git
+
+- To open Git press `Shift + Ctrl + G` + `G`
+- In the dropdown menu `...` we get a list of all possible Git commands
+- `Git History`, `GitLens` extension is really useful
+- `Remote Repositories` extension > Click the `><` button in the left bottom corner > Open Remote Repository
+
+## Custom Snippets
+
+- To configure new snippet use: `Ctrl + Shift + P` > `Configure User Snippets`
+- To insert snippet `Ctrl + Shift + P` > `Insert Snippet`
+- Often snippets can be installed as extensions
+
+## Code Formatting
+
+- To format document use: `Ctrl + Shift + I`
+- To configure multiple formatters, use the [Multiple Formatters](https://marketplace.visualstudio.com/items?itemName=Jota0222.multi-formatter) extension
+
 ## TODO
 
-### Clean Up and Organize This README.md
-
-### Tools
-
-- pyproject.toml
-- Poetry
-- Black
-- isort
-- flake8
-- mypy
-
-### Python
-
-- Remove unused imports
+- [ ] How to properly set Poetry, Black, isort, flake8, mypy to work with VSCode
+- [ ] How to remove unused imports in python
+- [ ] View environment package files in explorer (similarly to PyCharm)
