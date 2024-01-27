@@ -73,18 +73,21 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ### Useful Commands without a (reasonable) Shortcut
 
-| Command                      |
-|------------------------------|
-| Git                          |
-| Git: Commit                  |
-| Git: Push                    |
-| Git: Revert Selected Ranges  |
-| Git: Pull Rebase             |
-| Git: Show History            |
-| Left / Right Tab             |
-| File: New Folder             |
-| Git Stage                    |
-| Python Remove Unused Imports |
+| Command                              |
+|--------------------------------------|
+| Git                                  |
+| Git: Commit                          |
+| Git: Push                            |
+| Git: Revert Selected Ranges          |
+| Git: Pull Rebase                     |
+| Git: Show History                    |
+| Left / Right Tab                     |
+| File: New Folder                     |
+| Git Stage                            |
+| Python Remove Unused Imports         |
+| Re-run Last Run Config               |
+| Stage File Partially                 |
+| File Name Autocomplete in Commit Msg |
 
 ## Useful Plugins
 
@@ -110,6 +113,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - `Path Intellisense` - Autocompletion for paths
 - `Python Environment Manager` - Manage Python environments
 - `Scratchpads` - Create new scratch files
+- `Test Explorer UI` - Prettier tests
   
 ## Workspaces
 
