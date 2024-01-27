@@ -60,6 +60,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Ctrl + ,`                                                        | Search Settings                                                                |
 | &nbsp;                                                            |                                                                                |
 | **Run and Debug**                                                 |                                                                                |
+| `Ctrl + Shift + D`                                                | Open Run and Debug Menu                                                        |
 | `Ctrl + F5`                                                       | Run                                                                            |
 | `F5`                                                              | Debug                                                                          |
 | `Shift + F9`                                                      | Set line breakpoint                                                            |
@@ -68,6 +69,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | &nbsp;                                                            |                                                                                |
 | **Other**                                                         |                                                                                |
 | `Ctrl + Shift + V`                                                | Preview Markdown                                                               |
+| `Ctrl + Shift + X`                                                | Extensions                                                                     |
 
 ### Useful Commands without a (reasonable) Shortcut
 
