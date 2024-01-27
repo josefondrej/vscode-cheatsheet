@@ -62,6 +62,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | **Run and Debug**                                                 |                                                                                |
 | `Ctrl + Shift + D`                                                | Open Run and Debug Menu                                                        |
 | `Ctrl + F5`                                                       | Run                                                                            |
+| `Shift + F5`                                                      | Stop                                                                           |
 | `F5`                                                              | Debug                                                                          |
 | `Shift + F9`                                                      | Set line breakpoint                                                            |
 | `Ctrl + .`                                                        | Show Actions                                                                   |
