@@ -175,4 +175,12 @@ Are specified in `.vscode/launch.json` file
 
 - [ ] How to properly set Poetry, Black, isort, flake8, mypy to work with VSCode
 - [ ] How to remove unused imports in python
-- [ ] View environment package files in explorer (similarly to PyCharm)
+- [ ] Display the external libraries in explorer view similar to PyCharm
+- [ ] Working with multiple workspaces -- what is the correct way to add them to pythonpath and use them? 
+  - one option is the pip install -e
+- [ ] Local file history
+- [ ] Revert current change (shortcut) / revert selected ranges
+- [ ] Auto stage changes in already staged files
+- [ ] What are the different options to run python file
+- [ ] How to activate conda env when opening new terminal
+- [ ] How to share IDE settings
