@@ -86,8 +86,8 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | Git: Push                            | Ctrl + Alt + P            | User Defined                        |
 | Git: Revert Selected Ranges          | Ctrl + Alt + Z            | User Defined                        |
 | Git: Pull Rebase                     |                           |                                     |
-| Git Stage                            |                           |                                     |
-| Git: Show History                    | Alt + 9                   |                                     |
+| Git: Stage All Changes               | Ctrl + Alt + A            | Usef Defined                        |
+| Git: Show History                    | Alt + 9                   | Usef Defined                        |
 | Left / Right Tab                     | Ctrl + Fn + Arrow Up/Down |                                     |
 | File: New Folder                     |                           |                                     |
 | Python Remove Unused Imports         | Alt + Shift + O           | With the Ruff extension             |
