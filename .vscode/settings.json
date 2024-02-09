@@ -6,15 +6,17 @@
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": true,
+        "notebook.source.organizeImports": true
+    },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
+            "source.fixAll": true,
             "source.organizeImports": true
         },
-    },
-    "isort.args": [
-        "--profile",
-        "black"
-    ]
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    }
 }

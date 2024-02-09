@@ -97,29 +97,53 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ## Useful Plugins
 
-- `Remote Developement` - Connect to a remote server / to use a Docker container as your dev environment etc.
-- `Black Formatter` - Format Python code
-- `isort` - Import sorting for Python
-- `Flake8` - Linting support for Python
-- `Git History` / `GitLens` - See the Git section
-- `Remote Repositories` - See the Git section
-- `Mypy Type Checker` - Type checking for Python files
-- `SQLTools` - Working with relational databases (+ `SQLTools PostgreSQL/Cockroach Driver`, `SQLTools Oracle Driver`)
-- `GitHub Copilot` - AI Autocompletion
-- `Better Comments`
-- `autoDocstring`
-- `CodeSnap` - Beautiful screenshots of code
-- `Edit csv` - Editing of CSV files
-- `Code Spell Checker` - Spelling checker for code
-- `Git Graph` - View commit history
-- `HTML CSS Support` - CSS Intellisense for HTML
+**Python**
+
+- `Python`
 - `Jupyter` - Jupyter notebook support
-- `Markdown All in One`, `markdownlint` - Tools for writing Markdown
-- `MongoDB for VS Code` - Connect to MongoDB Atlas
-- `Path Intellisense` - Autocompletion for paths
-- `Python Environment Manager` - Manage Python environments
-- `Scratchpads` - Create new scratch files
 - `Test Explorer UI` - Prettier tests
+- `Ruff` - Linting, formatting and import sorting, faster (see `.vscode/settings.json` for examples)
+- `Mypy Type Checker` - Type checking for Python files
+- `Python Environment Manager` - Manage Python environments
+- ~~`Black Formatter` - Format Python code~~
+- ~~`isort` - Import sorting for Python~~
+- ~~`Flake8` - Linting support for Python~~
+
+**Docker**
+
+- `Docker`
+- `Remote Developement` - Connect to a remote server / to use a Docker container as your dev environment etc.
+
+**Git**
+
+- `Git Graph` - View commit history
+- `GitLens` - More advanced git features, paid
+- `Remote Repositories` - See the Git section
+
+**Databases**
+
+- `SQLTools` - Working with relational databases (+ `SQLTools PostgreSQL/Cockroach Driver`, `SQLTools Oracle Driver`)
+- `MongoDB for VS Code` - Connect to MongoDB Atlas
+
+**Code style**
+
+- `GitHub Copilot` - AI Autocompletion
+- `autoDocstring` - Generate docstrings
+
+- `Code Spell Checker` - Spelling checker for code
+- `CodeSnap` - Beautiful screenshots of code
+
+**Markdown**
+
+- `Markdown All in One` - Tools for writing Markdown
+- `markdownlint` - Markdown linter
+
+**Other**
+
+- `HTML CSS Support` - CSS Intellisense for HTML
+- `Path Intellisense` - Autocompletion for paths
+- `Scratchpads` - Create new scratch files
+- ~~`Edit csv` - Editing of CSV files~~
   
 ## Workspaces
 
@@ -175,6 +199,7 @@ Are specified in `.vscode/launch.json` file
 - To format document use: `Ctrl + Shift + I`
 - **Formatter**: [Black](https://github.com/psf/black) - actually formats the code, [isort](https://pycqa.github.io/isort/) - organizes imports
 - **Linter**: [Flake8](https://github.com/PyCQA/flake8) - formatter can't take care of everything, this checks more issues than the formatter handles but it can't fix them automatically, just shows where the problem is
+- There is a tool called [Ruff](https://github.com/astral-sh/ruff) that can replace Black, isort and flake8
 - **Type Checker**: [Mypy](https://github.com/python/mypy) - checks that typing annotations are correct
 - All the above mentioned tools are available as VSCode plugins (from Microsoft directly)
   - to use them, you can set the Editor > Format on Save setting (see `.vscode/settings.json` for example)
@@ -186,7 +211,6 @@ Are specified in `.vscode/launch.json` file
 
 ## TODO
 
-- [ ] How to remove unused imports in python
 - [ ] Display the external libraries in explorer view similar to PyCharm
 - [ ] Working with multiple workspaces -- what is the correct way to add them to pythonpath and use them?
   - one option is the pip install -e
