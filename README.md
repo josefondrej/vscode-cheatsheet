@@ -172,6 +172,13 @@ in the `~/.config/Code/User` in case of the user settings.
 
 Are specified in `.vscode/launch.json` file
 
+### Different Ways to Run/Debug Python Files
+
+- You can debug / run Python file using the config using `F5` / `Ctrl + F5`
+  - In debug mode you can also evaluate in console
+- You can run the Python file in terminal (small triangle in the top right of UI) without any settings
+- Run selection in terminal using `Shift + Enter`
+
 ## Terminal
 
 - To start the terminal press ``Ctrl + ` ``
@@ -210,9 +217,11 @@ Are specified in `.vscode/launch.json` file
   - use `pip install -e .`
   - or specify the environment variable PYTHONPATH in the launch configs in the workspace settings
 
+## Unresolved TODOs
+
+- [x] Auto stage changes in already staged files - since [staged changes do not show up in diff](https://stackoverflow.com/questions/48881124/can-i-make-visual-studio-code-highlight-staged-changes), this would probably mean more complex fiddling with the settings
+
 ## TODO
 
 - [ ] Display the external libraries in explorer view similar to PyCharm
-- [ ] Auto stage changes in already staged files
-- [ ] What are the different options to run python file
 - [ ] How to activate conda env when opening new terminal (issue only on Windows)
