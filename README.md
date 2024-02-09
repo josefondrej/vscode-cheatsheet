@@ -79,21 +79,21 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ### Useful Commands without a (reasonable) Shortcut
 
-| Command                              |
-|--------------------------------------|
-| Git                                  |
-| Git: Commit                          |
-| Git: Push                            |
-| Git: Revert Selected Ranges          |
-| Git: Pull Rebase                     |
-| Git: Show History                    |
-| Left / Right Tab                     |
-| File: New Folder                     |
-| Git Stage                            |
-| Python Remove Unused Imports         |
-| Re-run Last Run Config               |
-| Stage File Partially                 |
-| File Name Autocomplete in Commit Msg |
+| Command                              | Shortcut                  | Note                                |
+|--------------------------------------|---------------------------|-------------------------------------|
+| Git                                  | Ctrl + Shift + G          | Need to remove the GitLens override |
+| Git: Commit                          | Ctrl + Shift + G          | Need to remove the GitLens override |
+| Git: Push                            | Ctrl + Alt + P            | User Defined                        |
+| Git: Revert Selected Ranges          | Ctrl + Alt + Z            | User Defined                        |
+| Git: Pull Rebase                     |                           |                                     |
+| Git Stage                            |                           |                                     |
+| Git: Show History                    | Alt + 9                   |                                     |
+| Left / Right Tab                     | Ctrl + Fn + Arrow Up/Down |                                     |
+| File: New Folder                     |                           |                                     |
+| Python Remove Unused Imports         | Alt + Shift + O           | With the Ruff extension             |
+| Re-run Last Run Config               |                           |                                     |
+| Stage File Partially                 |                           |                                     |
+| File Name Autocomplete in Commit Msg |                           |                                     |
 
 ## Useful Plugins
 
