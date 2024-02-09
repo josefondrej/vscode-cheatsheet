@@ -173,7 +173,7 @@ Are specified in `.vscode/launch.json` file
 ## Code Appearance
 
 - To format document use: `Ctrl + Shift + I`
-- **Formatter**: [Black](https://github.com/psf/black) - actually formats the code, [isort](https://pycqa.github.io/isort/) -- organizes imports
+- **Formatter**: [Black](https://github.com/psf/black) - actually formats the code, [isort](https://pycqa.github.io/isort/) - organizes imports
 - **Linter**: [Flake8](https://github.com/PyCQA/flake8) - formatter can't take care of everything, this checks more issues than the formatter handles but it can't fix them automatically, just shows where the problem is
 - **Type Checker**: [Mypy](https://github.com/python/mypy) - checks that typing annotations are correct
 - All the above mentioned tools are available as VSCode plugins (from Microsoft directly)
