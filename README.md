@@ -4,6 +4,10 @@
 
 - [Fireship: 25 VS Code Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI?feature=shared)
 
+## Settings Sync
+
+Most of the settings can by [synced to cloud](https://code.visualstudio.com/docs/editor/settings-sync)
+
 ## Useful Shortcuts
 
 To open a project in VS Code, in terminal type `code /path/to/your/project`
@@ -176,7 +180,7 @@ Are specified in `.vscode/launch.json` file
 - [ ] How to properly set Poetry, Black, isort, flake8, mypy to work with VSCode
 - [ ] How to remove unused imports in python
 - [ ] Display the external libraries in explorer view similar to PyCharm
-- [ ] Working with multiple workspaces -- what is the correct way to add them to pythonpath and use them? 
+- [ ] Working with multiple workspaces -- what is the correct way to add them to pythonpath and use them?
   - one option is the pip install -e
 - [ ] Local file history
 - [ ] Revert current change (shortcut) / revert selected ranges
