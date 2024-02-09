@@ -170,14 +170,22 @@ Are specified in `.vscode/launch.json` file
 - To insert snippet `Ctrl + Shift + P` > `Insert Snippet`
 - Often snippets can be installed as extensions
 
-## Code Formatting
+## Code Appearance
 
 - To format document use: `Ctrl + Shift + I`
-- To configure multiple formatters, use the [Multiple Formatters](https://marketplace.visualstudio.com/items?itemName=Jota0222.multi-formatter) extension
+- **Formatter**: [Black](https://github.com/psf/black) - actually formats the code, [isort](https://pycqa.github.io/isort/) -- organizes imports
+- **Linter**: [Flake8](https://github.com/PyCQA/flake8) - formatter can't take care of everything, this checks more issues than the formatter handles but it can't fix them automatically, just shows where the problem is
+- **Type Checker**: [Mypy](https://github.com/python/mypy) - checks that typing annotations are correct
+- All the above mentioned tools are available as VSCode plugins (from Microsoft directly)
+  - to use them, you can set the Editor > Format on Save setting (see `.vscode/settings.json` for example)
+- Alternatively, a good idea for the formatting and also linting could be to set a pre-commit hook for them
+  - a great tool to do this is [pre-commit](https://pre-commit.ci/)
+  - it has support for [black](https://black.readthedocs.io/en/stable/integrations/source_version_control.html), [isort](https://pycqa.github.io/isort/docs/configuration/pre-commit.html), [flake8](https://flake8.pycqa.org/en/latest/user/using-hooks.html), [mypy](https://github.com/pre-commit/mirrors-mypy)
+- To configure black use `pyproject.toml`, this unfortunately does not work with flake8, for that you need to use the `.flake8` file
+- Of course all of these tools (in particular makes sense for flake8 and mypy) can be added also to CI
 
 ## TODO
 
-- [ ] How to properly set Poetry, Black, isort, flake8, mypy to work with VSCode
 - [ ] How to remove unused imports in python
 - [ ] Display the external libraries in explorer view similar to PyCharm
 - [ ] Working with multiple workspaces -- what is the correct way to add them to pythonpath and use them?
