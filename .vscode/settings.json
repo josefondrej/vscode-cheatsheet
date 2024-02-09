@@ -18,5 +18,13 @@
             "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "charliermarsh.ruff"
-    }
+    },
+    "cSpell.words": [
+        "Cheatsheet",
+        "cheatsheets",
+        "docstrings",
+        "Fireship",
+        "isort",
+        "mypy"
+    ]
 }

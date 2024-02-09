@@ -32,7 +32,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Ctrl + K` + `Ctrl + Page Up / Down`                              | Open Next / Previous Editor in Group                                           |
 | &nbsp;                                                            |                                                                                |
 | **Code Navigation**                                               |                                                                                |
-| `Ctrl + D`                                                        | Highlite All Occurences                                                        |
+| `Ctrl + D`                                                        | Highlight All Occurrences                                                      |
 | `Ctrl + K + J`                                                    | Expand All Lines of Code                                                       |
 | `Ctrl + K + 1/2/...`                                              | Fold Code at Level n                                                           |
 | `Alt + Z`                                                         | Toggle Word Wrap                                                               |
@@ -97,7 +97,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ## Useful Plugins
 
-**Python**
+### Python
 
 - `Python`
 - `Jupyter` - Jupyter notebook support
@@ -109,23 +109,23 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - ~~`isort` - Import sorting for Python~~
 - ~~`Flake8` - Linting support for Python~~
 
-**Docker**
+### Docker
 
 - `Docker`
-- `Remote Developement` - Connect to a remote server / to use a Docker container as your dev environment etc.
+- `Remote Development` - Connect to a remote server / to use a Docker container as your dev environment etc.
 
-**Git**
+### Git
 
 - `Git Graph` - View commit history
 - `GitLens` - More advanced git features, paid
 - `Remote Repositories` - See the Git section
 
-**Databases**
+### Databases
 
 - `SQLTools` - Working with relational databases (+ `SQLTools PostgreSQL/Cockroach Driver`, `SQLTools Oracle Driver`)
 - `MongoDB for VS Code` - Connect to MongoDB Atlas
 
-**Code style**
+### Code style
 
 - `GitHub Copilot` - AI Autocompletion
 - `autoDocstring` - Generate docstrings
@@ -133,12 +133,12 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - `Code Spell Checker` - Spelling checker for code
 - `CodeSnap` - Beautiful screenshots of code
 
-**Markdown**
+### Markdown
 
 - `Markdown All in One` - Tools for writing Markdown
 - `markdownlint` - Markdown linter
 
-**Other**
+### Other
 
 - `HTML CSS Support` - CSS Intellisense for HTML
 - `Path Intellisense` - Autocompletion for paths
@@ -181,13 +181,6 @@ Are specified in `.vscode/launch.json` file
 - To create a task: `Ctrl + Shift + P` > `Configure Default Build Task`
 - To run it: `Ctrl + Shift + P` > `Run Task`
 
-## Git
-
-- To open Git press `Shift + Ctrl + G` + `G`
-- In the dropdown menu `...` we get a list of all possible Git commands
-- `Git History`, `GitLens` extension is really useful
-- `Remote Repositories` extension > Click the `><` button in the left bottom corner > Open Remote Repository
-
 ## Custom Snippets
 
 - To configure new snippet use: `Ctrl + Shift + P` > `Configure User Snippets`
@@ -209,14 +202,17 @@ Are specified in `.vscode/launch.json` file
 - To configure black use `pyproject.toml`, this unfortunately does not work with flake8, for that you need to use the `.flake8` file
 - Of course all of these tools (in particular makes sense for flake8 and mypy) can be added also to CI
 
+## Working with Multiple Python Projects
+
+- Use the `.code-workspace` file
+- To include the dependent package either
+  - use `pip install -e .`
+  - or specify the environment variable PYTHONPATH in the launch configs in the workspace settings
+
 ## TODO
 
 - [ ] Display the external libraries in explorer view similar to PyCharm
-- [ ] Working with multiple workspaces -- what is the correct way to add them to pythonpath and use them?
-  - one option is the pip install -e
 - [ ] Local file history
-- [ ] Revert current change (shortcut) / revert selected ranges
 - [ ] Auto stage changes in already staged files
 - [ ] What are the different options to run python file
-- [ ] How to activate conda env when opening new terminal
-- [ ] How to share IDE settings
+- [ ] How to activate conda env when opening new terminal (issue only on Windows)
