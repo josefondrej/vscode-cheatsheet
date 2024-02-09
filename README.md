@@ -140,6 +140,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ### Other
 
+- `Local History` - Tracking of local history of files (similar functionality is already built in in the TIMELINE tab in explorer)
 - `HTML CSS Support` - CSS Intellisense for HTML
 - `Path Intellisense` - Autocompletion for paths
 - `Scratchpads` - Create new scratch files
@@ -212,7 +213,6 @@ Are specified in `.vscode/launch.json` file
 ## TODO
 
 - [ ] Display the external libraries in explorer view similar to PyCharm
-- [ ] Local file history
 - [ ] Auto stage changes in already staged files
 - [ ] What are the different options to run python file
 - [ ] How to activate conda env when opening new terminal (issue only on Windows)
