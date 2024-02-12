@@ -227,7 +227,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 - To format document use: `Ctrl + Shift + F`, to organize import `Ctrl + Shift + O`
 - It is a good idea to set the auto-format and auto-organize imports on save (see `settings.json`)
-- **Formatting & Linting & Import sorting**: [Ruff](https://github.com/astral-sh/ruff) - formatter actually formats the code, linter just shows where the problem is, historically established formatter was [Black](https://github.com/psf/black), established linter [Flake8](https://github.com/PyCQA/flake8) and for import sorting there was [isort](https://pycqa.github.io/isort/), but Ruff aims to replace them all (and as far as I can tell does it pretty well)
+- **Formatting & Linting & Import sorting**: [Ruff](https://github.com/astral-sh/ruff) - formatter actually formats the code, linter just shows where the problem is, historically established formatter was [Black](https://github.com/psf/black), established linter [Flake8](https://github.com/PyCQA/flake8) and for import sorting there was [isort](https://pycqa.github.io/isort/), but Ruff aims to replace them all (and as far as I can tell does it pretty well). For examples on how Black and Flake8 can be configured see `pyproject.toml` resp. `.flake8` files
 - **Type Checker**: [Mypy](https://github.com/python/mypy) - checks that typing annotations are correct
 - All the above mentioned tools are available as VSCode plugins (from Microsoft directly)
   - to use them, you can set the Editor > Format on Save setting (see `.vscode/settings.json` for example)
