@@ -136,6 +136,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Shift + F9`                                        | Set Line Breakpoint                                                            |
 | `F9`                                                | Remove Line Breakpoint                                                         |
 | `Shift + Enter`                                     | Execute Selection in Console                                                   |
+| `F10`                                               | Debugger: Step Over                                                            |
 | &nbsp;                                              |                                                                                |
 | **Other**                                           |                                                                                |
 | `Ctrl + Shift + V`                                  | Preview Markdown                                                               |
