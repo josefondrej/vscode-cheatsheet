@@ -219,7 +219,7 @@ Are specified in `.vscode/launch.json` file
 
 ## Unresolved TODOs
 
-- [x] Auto stage changes in already staged files - since [staged changes do not show up in diff](https://stackoverflow.com/questions/48881124/can-i-make-visual-studio-code-highlight-staged-changes), this would probably mean more complex fiddling with the settings
+- [x] Auto stage changes in already staged files - since [staged changes do not show up in diff](https://stackoverflow.com/questions/48881124/can-i-make-visual-studio-code-highlight-staged-changes), this would probably mean more complex fiddling with the settings - now I set up hotkey for stage all, which makes this less of a pain point
 
 ## TODO
 
@@ -227,3 +227,4 @@ Are specified in `.vscode/launch.json` file
 - [ ] Display the external libraries in explorer view similar to PyCharm
   - it sort of works with Python extension installed, but the structure of the libraries doesn't show up, it just opens in explorer as a single file
   - there is [not exactly a huge effort](https://github.com/microsoft/vscode-python/issues/15018) from VSCode dev team to get this working
+- [ ] Get it working with [unclean git repo](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout)
