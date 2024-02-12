@@ -178,7 +178,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 - `Git Graph` - View commit history
 - `GitLens` - More advanced git features, paid
-- `Remote Repositories` - See the Git section
+- ~~`Remote Repositories`~~
 
 ### Databases
 
