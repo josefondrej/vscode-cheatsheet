@@ -90,6 +90,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Ctrl + W`                                          | Close Tab                                                                      |
 | `Ctrl + Shift + Insert`                             | Insert a New File                                                              |
 | `Ctrl + Page Up / Down`                             | Open Next / Previous Editor in Group                                           |
+| `Ctrl + Shift + F`                                  | Search In Files                                                                |
 | &nbsp;                                              |                                                                                |
 | **Code Navigation**                                 |                                                                                |
 | `Ctrl + D`                                          | Highlight All Occurrences                                                      |
