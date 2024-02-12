@@ -206,7 +206,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ### Other
 
-- `Local History` - Tracking of local history of files (similar functionality is already built in in the TIMELINE tab in explorer)
+- `Local History` - Tracking of local history of files (similar functionality is already built in in the TIMELINE tab in explorer), might be useful to include `**/.history` into your `Files: Exclude` and `Search: Exclude` settings
 - `HTML CSS Support` - CSS Intellisense for HTML
 - `Path Intellisense` - Autocompletion for paths
 - `Scratchpads` - Create new scratch files
