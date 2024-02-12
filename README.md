@@ -223,8 +223,7 @@ Are specified in `.vscode/launch.json` file
 
 ## TODO
 
-- [ ] How to activate conda env when opening new terminal (issue only on Windows)
-- [ ] Windows hotkeys
+- [ ] Push current branch to arbitrary remote branch
 - [ ] Display the external libraries in explorer view similar to PyCharm
   - it sort of works with Python extension installed, but the structure of the libraries doesn't show up, it just opens in explorer as a single file
   - there is [not exactly a huge effort](https://github.com/microsoft/vscode-python/issues/15018) from VSCode dev team to get this working
