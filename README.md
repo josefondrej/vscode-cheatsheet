@@ -1,18 +1,78 @@
 # VS Code Cheatsheet
 
-## Inspired By
+A brief overview of how I personally have my Visual Studio Code set up and how I use it.
+Serves also as a quick cheatsheet.
+Work it progress.
 
-- [Fireship: 25 VS Code Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI?feature=shared)
+## IDE Customization
 
-## Settings Sync
+### Profiles
 
-Most of the settings can by [synced to cloud](https://code.visualstudio.com/docs/editor/settings-sync)
+VSCode supports customization using so called profiles. You can create new one by `Ctrl + Shift + P` > `Profiles: Create Profile ...`
+and customize different aspects of the IDE in this profile including IDE settings, keyboard shortcuts, user snippets, user tasks etc.
 
-## Useful Shortcuts
+The profiles can be [synced to cloud](https://code.visualstudio.com/docs/editor/settings-sync) or exported / imported as e.g. GitHub gist.
+
+### Workspaces
+
+VSCode Workspace is a collection of 1 or more folders opened in VS Code.
+
+- For 1 folder you don't have to do anything (just open it in VS Code and this is workspace)
+- For more folders you need to create `<name>.code-workspace` file that lists the folders of the workspace
+
+It can be useful to set workspace file (or more) also for a single folder as different workspace files can
+give different "views" on the folder
+
+#### Working with Multiple Python Projects
+
+- Specify the paths to the projects in the `.code-workspace` file
+- To include the dependent package(s) either
+  - use `pip install -e .`
+  - or specify the environment variable PYTHONPATH in the launch configs in the workspace settings
+  - of course the previous 2 options only make sense when you want to modify the projects on which the main project depends
+
+### IDE Settings
+
+The IDE Settings control e.g. what code formatter should be used. Font size and type in editor etc.
+There are 2 levels at which various settings of the IDE can be configured:
+
+- User (=part of the profile) Settings (lives in e.g. `C:/Users/<username>/AppData/Roaming/Code/User/profiles/<profile>/settings.json`)
+- Workspace Settings (lives in project dir `.vscode/settings.json`)
+
+The `settings.json` files can be viewed as raw JSON or there is a UI that VSCode provides for conveniently viewing them.
+To modify the settings (in UI): `Ctrl + ,`
+The settings can also be specified in the `.code-workspace` file
+
+#### Editor Appearance
+
+- Install on your OS the [JetBrains Mono Font](https://www.jetbrains.com/lp/mono/) and set the `Editor > Font Family` to `'Jetbrains Mono', Consolas, 'Courier New', monospace`
+- Nice color themes are e.g. [Atom One Light](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight) or the [GitHub Themes](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+
+### Tasks
+
+- Some predefined jobs - for example some build
+- Like IDE Settings can also be User or Workspace specific
+- To create a task: `Ctrl + Shift + P` > `Configure Task`
+- To run it: `Ctrl + Shift + P` > `Run Task`
+
+### Snippets
+
+- Like IDE Settings can also be User or Workspace specific
+- To configure new snippet use: `Ctrl + Shift + P` > `Configure User Snippets`
+- To insert snippet `Ctrl + Shift + P` > `Insert Snippet`
+- Often snippets can be installed as extensions
+
+## Launch Configurations
+
+You can specify how a Python (or other) program will be launched using launch configurations.
+They are specified in `.vscode/launch.json` file and can contain e.g. environment variables to use for the run.
+
+## Useful Keyboard Shortcuts
 
 To open a project in VS Code, in terminal type `code /path/to/your/project`
 
 To list all the shortcuts use `Ctrl + K, Ctrl + S`
+
 Alternatively for the default values see [windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) cheatsheets online.
 
@@ -80,22 +140,22 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ### Useful Commands without a (reasonable) Shortcut
 
-| Command                              | Shortcut Windows | Note                                |
-|--------------------------------------|------------------|-------------------------------------|
-| Git                                  | Ctrl + Shift + G | Need to remove the GitLens override |
-| Git: Commit                          | Ctrl + Shift + G | Need to remove the GitLens override |
-| Git: Push                            | Ctrl + Alt + P   | User Defined                        |
-| Git: Revert Selected Ranges          | Ctrl + Alt + Z   | User Defined (remove when expression)                       |
-| Git: Stage All Changes               | Ctrl + Alt + A   | Usef Defined                        |
-| Git: Show History                    | Alt + 9          | Usef Defined                        |
-| Git: Pull Rebase                     |                  |                                     |
-| File: New Folder                     |                  |                                     |
-| Python Remove Unused Imports         | Alt + Shift + O  | With the Ruff extension             |
-| Re-run Last Run Config               |                  |                                     |
-| Stage File Partially                 |                  |                                     |
-| File Name Autocomplete in Commit Msg |                  |                                     |
+| Command                              | My Custom Shortcut Windows | Note                                  |
+|--------------------------------------|----------------------------|---------------------------------------|
+| Git                                  | Ctrl + Shift + G           | Need to remove the GitLens override   |
+| Git: Commit                          | Ctrl + Shift + G           | Need to remove the GitLens override   |
+| Git: Push                            | Ctrl + Alt + P             | User Defined                          |
+| Git: Revert Selected Ranges          | Ctrl + Alt + Z             | User Defined (remove when expression) |
+| Git: Stage All Changes               | Ctrl + Alt + A             | Usef Defined                          |
+| Git: Show History                    | Alt + 9                    | Usef Defined                          |
+| Git: Pull Rebase                     |                            |                                       |
+| File: New Folder                     |                            |                                       |
+| Python Remove Unused Imports         | Alt + Shift + O            | With the Ruff extension               |
+| Re-run Last Run Config               |                            |                                       |
+| Stage File Partially                 |                            |                                       |
+| File Name Autocomplete in Commit Msg |                            |                                       |
 
-## Useful Plugins
+## Plugins
 
 ### Python
 
@@ -105,14 +165,14 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - `Ruff` - Linting, formatting and import sorting, faster (see `.vscode/settings.json` for examples)
 - `Mypy Type Checker` - Type checking for Python files
 - `Python Environment Manager` - Manage Python environments
-- ~~`Black Formatter` - Format Python code~~
-- ~~`isort` - Import sorting for Python~~
-- ~~`Flake8` - Linting support for Python~~
+- ~~`Black Formatter` - Format Python code - replaced by Ruff~~
+- ~~`isort` - Import sorting for Python - replaced by Ruff~~
+- ~~`Flake8` - Linting support for Python - replaced by Ruff~~
 
 ### Docker
 
 - `Docker`
-- `Remote Development` - Connect to a remote server / to use a Docker container as your dev environment etc.
+- `Remote Development` - Connect to a remote server / to use a Docker container as your dev environment
 
 ### Git
 
@@ -137,6 +197,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 - `Markdown All in One` - Tools for writing Markdown
 - `markdownlint` - Markdown linter
+- `Markdown Table Prettifier` - Prettify Markdown tables
 
 ### Other
 
@@ -146,61 +207,22 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - `Scratchpads` - Create new scratch files
 - ~~`Edit csv` - Editing of CSV files~~
   
-## Workspaces
+## Python
 
-Workspace = collection of 1 or more folders opened in VS Code.
+### Different Ways to Run / Debug Python Files
 
-- For 1 folder you don't have to do anything (just open it in VS Code)
-- For more folders you need to create `<name>.code-workspace` file that lists the folders of the workspace
-
-It can be useful to set workspace file (or more) also for a single folder as different workspace files can
-give different "views" on the folder
-
-## IDE Settings
-
-There are 2 levels at which various settings of the IDE can be configured:
-
-- User Settings
-- Workspace Settings
-
-To modify the settings: `Ctrl + Shift + P` > `Preferences: Open User/Workspace Settings`
-
-The settings can be viewed in UI or as a `settings.json` file that lives under `.vscode` in case of the workspace settings and
-in the `~/.config/Code/User` in case of the user settings.
-
-## Launch Configurations
-
-Are specified in `.vscode/launch.json` file
-
-### Different Ways to Run/Debug Python Files
-
-- You can debug / run Python file using the config using `F5` / `Ctrl + F5`
+- You can debug / run Python file using the launch configurations using `F5` / `Ctrl + F5`
+  - For a useful python launch config see `.vscode/launch.json`
   - In debug mode you can also evaluate in console
 - You can run the Python file in terminal (small triangle in the top right of UI) without any settings
 - Run selection in terminal using `Shift + Enter`
+- Set / unset breakpoints using `F9` / `Shift + F9`
 
-## Terminal
+### Python Code Formatting
 
-- To start the terminal press ``Ctrl + ` ``
-- You can change color / name of the terminal window
-
-## Tasks
-
-- To create a task: `Ctrl + Shift + P` > `Configure Default Build Task`
-- To run it: `Ctrl + Shift + P` > `Run Task`
-
-## Custom Snippets
-
-- To configure new snippet use: `Ctrl + Shift + P` > `Configure User Snippets`
-- To insert snippet `Ctrl + Shift + P` > `Insert Snippet`
-- Often snippets can be installed as extensions
-
-## Code Appearance
-
-- To format document use: `Ctrl + Shift + I`
-- **Formatter**: [Black](https://github.com/psf/black) - actually formats the code, [isort](https://pycqa.github.io/isort/) - organizes imports
-- **Linter**: [Flake8](https://github.com/PyCQA/flake8) - formatter can't take care of everything, this checks more issues than the formatter handles but it can't fix them automatically, just shows where the problem is
-- There is a tool called [Ruff](https://github.com/astral-sh/ruff) that can replace Black, isort and flake8
+- To format document use: `Ctrl + Shift + F`, to organize import `Ctrl + Shift + O`
+- It is a good idea to set the auto-format and auto-organize imports on save (see `settings.json`)
+- **Formatting & Linting & Import sorting**: [Ruff](https://github.com/astral-sh/ruff) - formatter actually formats the code, linter just shows where the problem is, historically established formatter was [Black](https://github.com/psf/black), established linter [Flake8](https://github.com/PyCQA/flake8) and for import sorting there was [isort](https://pycqa.github.io/isort/), but Ruff aims to replace them all (and as far as I can tell does it pretty well)
 - **Type Checker**: [Mypy](https://github.com/python/mypy) - checks that typing annotations are correct
 - All the above mentioned tools are available as VSCode plugins (from Microsoft directly)
   - to use them, you can set the Editor > Format on Save setting (see `.vscode/settings.json` for example)
@@ -210,12 +232,10 @@ Are specified in `.vscode/launch.json` file
 - To configure black use `pyproject.toml`, this unfortunately does not work with flake8, for that you need to use the `.flake8` file
 - Of course all of these tools (in particular makes sense for flake8 and mypy) can be added also to CI
 
-## Working with Multiple Python Projects
+## Terminal
 
-- Use the `.code-workspace` file
-- To include the dependent package either
-  - use `pip install -e .`
-  - or specify the environment variable PYTHONPATH in the launch configs in the workspace settings
+- To start the terminal press ``Ctrl + ` ``
+- You can change color / name of the terminal window
 
 ## Unresolved TODOs
 
@@ -227,4 +247,5 @@ Are specified in `.vscode/launch.json` file
 - [ ] Display the external libraries in explorer view similar to PyCharm
   - it sort of works with Python extension installed, but the structure of the libraries doesn't show up, it just opens in explorer as a single file
   - there is [not exactly a huge effort](https://github.com/microsoft/vscode-python/issues/15018) from VSCode dev team to get this working
-- [ ] Get it working with [unclean git repo](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout)
+- [ ] Get VSCode working with [unclean git repo](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout)
+- [ ] More specific instructions on how to configure User / Profile and Workspace tasks
