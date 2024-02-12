@@ -16,84 +16,84 @@ To list all the shortcuts use `Ctrl + K, Ctrl + S`
 Alternatively for the default values see [windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) cheatsheets online.
 
-| Shortcut                                                          | What it does                                                                   |
-|-------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **File Navigation**                                               |                                                                                |
-| `Ctrl + Shift + E`                                                | Open File Explorer                                                             |
-| `Ctrl + 1`                                                        | Focus Editor                                                                   |
-| `Ctrl + P`                                                        | Go to File                                                                     |
-| `Ctrl + P` + `>` / `Ctrl + Shift + P`                             | Show All Commands                                                              |
-| `Ctrl + P` + `@` / `Ctrl + Shift + O` / `Ctrl + Shift + .`        | Go to Symbol in Editor                                                         |
-| `Ctrl + P` + `#`  / `Ctrl + T`                                    | Go to Symbol in Workspace (for a class called MyAwesomeClass you can type MAC) |
-| `Ctrl + P` + `:` / `Ctrl + G`                                     | Go to Line / Column                                                            |
-| `Ctrl + -/+`                                                      | Zoom in / out                                                                  |
-| `Ctrl + W`                                                        | Close Tab                                                                      |
-| `Ctrl + Shift + Insert`                                           | Insert a New File                                                              |
-| `Ctrl + K` + `Ctrl + Page Up / Down`                              | Open Next / Previous Editor in Group                                           |
-| &nbsp;                                                            |                                                                                |
-| **Code Navigation**                                               |                                                                                |
-| `Ctrl + D`                                                        | Highlight All Occurrences                                                      |
-| `Ctrl + K + J`                                                    | Expand All Lines of Code                                                       |
-| `Ctrl + K + 1/2/...`                                              | Fold Code at Level n                                                           |
-| `Alt + Z`                                                         | Toggle Word Wrap                                                               |
-| `F12`                                                             | Go to Definition / Show Implementations                                        |
-| `Ctrl + Shift + -` / `Ctrl + Alt + -`                             | Navigate Forward / Backward                                                    |
-| `Ctrl + Space`                                                    | Show Docstring                                                                 |
-| `Ctrl + Shift + M`                                                | Show Problems in the Current File                                              |
-| &nbsp;                                                            |                                                                                |
-| **Git**                                                           |                                                                                |
-| `Ctrl + Shift + G` + `G`                                          | Open Git                                                                       |
-| &nbsp;                                                            |                                                                                |
-| **Formatting / Refactoring**                                      |                                                                                |
-| `Ctrl + Shift + I`                                                | Format Document                                                                |
-| `Alt + Shift + O`                                                 | Optimize Imports                                                               |
-| `Ctrl + D` / `Alt + Left Click` / `Alt + Shift + Arrow Up / Down` | Multi Cursor                                                                   |
-| `Ctrl + X`                                                        | Cut Current Line                                                               |
-| `Alt + Arrow Up / Down`                                           | Move Current Line Up / Down                                                    |
-| `Ctrl + L`                                                        | Select Current Line                                                            |
-| `Ctrl + /`                                                        | Un/Comment Selected Code                                                       |
-| `Shift + Alt + .`                                                 | Quick Fix                                                                      |
-| `F8`                                                              | Show Problems                                                                  |
-| `F2`                                                              | Rename function / class / object                                               |
-| &nbsp;                                                            |                                                                                |
-| **Terminal**                                                      |                                                                                |
-| `Ctrl + Shift + 5`                                                | Split Terminal                                                                 |
-| `Ctrl + backtick` / `Ctrl + J`                                    | Open Terminal                                                                  |
-| `Ctrl + Shift + backtick`                                         | New Terminal                                                                   |
-| &nbsp;                                                            |                                                                                |
-| **Settings**                                                      |                                                                                |
-| `Ctrl + ,`                                                        | Search Settings                                                                |
-| &nbsp;                                                            |                                                                                |
-| **Run and Debug**                                                 |                                                                                |
-| `Ctrl + Shift + D`                                                | Open Run and Debug Menu                                                        |
-| `Ctrl + F5`                                                       | Run                                                                            |
-| `Shift + F5`                                                      | Stop                                                                           |
-| `F5`                                                              | Debug                                                                          |
-| `Shift + F9`                                                      | Set line breakpoint                                                            |
-| `Ctrl + .`                                                        | Show Actions                                                                   |
-| `Shift + Enter`                                                   | Execute Selection in Console                                                   |
-| &nbsp;                                                            |                                                                                |
-| **Other**                                                         |                                                                                |
-| `Ctrl + Shift + V`                                                | Preview Markdown                                                               |
-| `Ctrl + Shift + X`                                                | Extensions                                                                     |
+| Shortcut Windows                                    | What it does                                                                   |
+|-----------------------------------------------------|--------------------------------------------------------------------------------|
+| **File Navigation**                                 |                                                                                |
+| `Ctrl + Shift + E`                                  | Open File Explorer                                                             |
+| `Ctrl + 1`                                          | Focus Editor                                                                   |
+| `Ctrl + P`                                          | Go to File                                                                     |
+| `Ctrl + Shift + P`                                  | Show All Commands                                                              |
+| `Ctrl + Shift + O` / `Ctrl + Shift + .`             | Go to Symbol in Editor                                                         |
+| `Ctrl + T`                                          | Go to Symbol in Workspace (for a class called MyAwesomeClass you can type MAC) |
+| `Ctrl + G`                                          | Go to Line / Column                                                            |
+| `Ctrl + -/+`                                        | Zoom in / out                                                                  |
+| `Ctrl + W`                                          | Close Tab                                                                      |
+| `Ctrl + Shift + Insert`                             | Insert a New File                                                              |
+| `Ctrl + Page Up / Down`                             | Open Next / Previous Editor in Group                                           |
+| &nbsp;                                              |                                                                                |
+| **Code Navigation**                                 |                                                                                |
+| `Ctrl + D`                                          | Highlight All Occurrences                                                      |
+| `Ctrl + K + J`                                      | Expand All Lines of Code                                                       |
+| `Ctrl + K + 0`                                      | Fold All Lines of Code                                                         |
+| `Ctrl + K + ]`                                      | Unfold Recursively (Unfold Current Line)                                       |
+| `Alt + Z`                                           | Toggle Word Wrap                                                               |
+| `F12`                                               | Go to Definition / Show Implementations                                        |
+| `Alt + Right / Left Arrow`                          | Navigate Forward / Backward                                                    |
+| `Ctrl + Space`                                      | Show Docstring                                                                 |
+| `Ctrl + Shift + M`                                  | Show Problems in the Current File                                              |
+| &nbsp;                                              |                                                                                |
+| **Git**                                             |                                                                                |
+| `Ctrl + Shift + G` + `G`                            | Open Git                                                                       |
+| &nbsp;                                              |                                                                                |
+| **Formatting / Refactoring**                        |                                                                                |
+| `Alt + Shift + F`                                   | Format Document                                                                |
+| `Alt + Shift + O`                                   | Optimize Imports                                                               |
+| `Alt + Left Click` / `Alt + Ctrl + Arrow Up / Down` | Multi Cursor                                                                   |
+| `Ctrl + X`                                          | Cut Current Line                                                               |
+| `Alt + Arrow Up / Down`                             | Move Current Line Up / Down                                                    |
+| `Ctrl + L`                                          | Select Current Line                                                            |
+| `Ctrl + /`                                          | Un/Comment Selected Code                                                       |
+| `Ctrl + .`                                          | Quick Fix                                                                      |
+| `F8`                                                | Show Problems                                                                  |
+| `F2`                                                | Rename function / class / object                                               |
+| &nbsp;                                              |                                                                                |
+| **Terminal**                                        |                                                                                |
+| `Ctrl + Shift + backtick`                           | New Terminal                                                                   |
+| `Ctrl + backtick` / `Ctrl + J`                      | Open Terminal                                                                  |
+| `Ctrl + Shift + 5`                                  | Split Terminal                                                                 |
+| &nbsp;                                              |                                                                                |
+| **Settings**                                        |                                                                                |
+| `Ctrl + ,`                                          | Search Settings                                                                |
+| &nbsp;                                              |                                                                                |
+| **Run and Debug**                                   |                                                                                |
+| `Ctrl + Shift + D`                                  | Open Run and Debug Menu                                                        |
+| `Ctrl + F5`                                         | Run                                                                            |
+| `Shift + F5`                                        | Stop                                                                           |
+| `F5`                                                | Debug                                                                          |
+| `Shift + F9`                                        | Set Line Breakpoint                                                            |
+| `F9`                                                | Remove Line Breakpoint                                                         |
+| `Shift + Enter`                                     | Execute Selection in Console                                                   |
+| &nbsp;                                              |                                                                                |
+| **Other**                                           |                                                                                |
+| `Ctrl + Shift + V`                                  | Preview Markdown                                                               |
+| `Ctrl + Shift + X`                                  | Extensions                                                                     |
 
 ### Useful Commands without a (reasonable) Shortcut
 
-| Command                              | Shortcut                  | Note                                |
-|--------------------------------------|---------------------------|-------------------------------------|
-| Git                                  | Ctrl + Shift + G          | Need to remove the GitLens override |
-| Git: Commit                          | Ctrl + Shift + G          | Need to remove the GitLens override |
-| Git: Push                            | Ctrl + Alt + P            | User Defined                        |
-| Git: Revert Selected Ranges          | Ctrl + Alt + Z            | User Defined                        |
-| Git: Pull Rebase                     |                           |                                     |
-| Git: Stage All Changes               | Ctrl + Alt + A            | Usef Defined                        |
-| Git: Show History                    | Alt + 9                   | Usef Defined                        |
-| Left / Right Tab                     | Ctrl + Fn + Arrow Up/Down |                                     |
-| File: New Folder                     |                           |                                     |
-| Python Remove Unused Imports         | Alt + Shift + O           | With the Ruff extension             |
-| Re-run Last Run Config               |                           |                                     |
-| Stage File Partially                 |                           |                                     |
-| File Name Autocomplete in Commit Msg |                           |                                     |
+| Command                              | Shortcut Windows | Note                                |
+|--------------------------------------|------------------|-------------------------------------|
+| Git                                  | Ctrl + Shift + G | Need to remove the GitLens override |
+| Git: Commit                          | Ctrl + Shift + G | Need to remove the GitLens override |
+| Git: Push                            | Ctrl + Alt + P   | User Defined                        |
+| Git: Revert Selected Ranges          | Ctrl + Alt + Z   | User Defined                        |
+| Git: Pull Rebase                     |                  |                                     |
+| Git: Stage All Changes               | Ctrl + Alt + A   | Usef Defined                        |
+| Git: Show History                    | Alt + 9          | Usef Defined                        |
+| File: New Folder                     |                  |                                     |
+| Python Remove Unused Imports         | Alt + Shift + O  | With the Ruff extension             |
+| Re-run Last Run Config               |                  |                                     |
+| Stage File Partially                 |                  |                                     |
+| File Name Autocomplete in Commit Msg |                  |                                     |
 
 ## Useful Plugins
 
