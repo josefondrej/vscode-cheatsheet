@@ -2,7 +2,7 @@
 
 A brief overview of how I personally have my Visual Studio Code set up and how I use it.
 Serves also as a quick cheatsheet.
-Work it progress.
+Work in progress.
 
 ## IDE Customization
 
