@@ -102,6 +102,8 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Alt + Right / Left Arrow`                          | Navigate Forward / Backward                                                    |
 | `Ctrl + Space`                                      | Show Docstring                                                                 |
 | `Ctrl + Shift + M`                                  | Show Problems in the Current File                                              |
+| `Ctrl + F`                                          | Find in File                                                                   |
+| `Ctrl + H`                                          | Replace in File                                                                |
 | &nbsp;                                              |                                                                                |
 | **Git**                                             |                                                                                |
 | `Ctrl + Shift + G` + `G`                            | Open Git                                                                       |
