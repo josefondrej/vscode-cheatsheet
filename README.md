@@ -144,21 +144,21 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 ### Useful Commands without a (reasonable) Shortcut
 
-| Command                              | My Custom Shortcut Windows | Note                                  |
-|--------------------------------------|----------------------------|---------------------------------------|
-| Git                                  | `Ctrl + Shift + G`         | Need to remove the GitLens override   |
-| Git: Commit                          | `Ctrl + Shift + G`         | Need to remove the GitLens override   |
-| Git: Push                            | `Ctrl + Alt + P`           | User Defined                          |
-| Git: Revert Selected Ranges          | `Ctrl + Alt + Z`           | User Defined (remove when expression) |
-| Git: Stage All Changes               | `Ctrl + Alt + A`           | Usef Defined                          |
-| Git: Show History                    | `Alt + 9`                  | Usef Defined                          |
-| Git: Pull Rebase                     |                            |                                       |
-| File: New Folder                     |                            |                                       |
-| Python Remove Unused Imports         | `Alt + Shift + O`          | With the Ruff extension               |
-| Re-run Last Run Config               |                            |                                       |
-| Stage File Partially                 |                            |                                       |
-| File Name Autocomplete in Commit Msg |                            |                                       |
-| Evaluate in Debug Console            | `Ctrl + Alt + E`           | User Defined                          |
+| Command                                | My Custom Shortcut Windows | Note                                                         |
+|----------------------------------------|----------------------------|--------------------------------------------------------------|
+| Git                                    | `Ctrl + Shift + G`         | Need to remove the GitLens override                          |
+| Git: Commit                            | `Ctrl + Shift + G`         | Need to remove the GitLens override                          |
+| Git: Push                              | `Ctrl + Alt + P`           | User Defined                                                 |
+| Git: Revert Selected Ranges            | `Ctrl + Alt + Z`           | User Defined (remove when expression)                        |
+| Git: Stage All Changes                 | `Ctrl + Alt + A`           | Usef Defined                                                 |
+| Git: Show History                      | `Alt + 9`                  | Usef Defined                                                 |
+| Git: Pull Rebase                       |                            |                                                              |
+| File: New Folder                       |                            |                                                              |
+| Python Remove Unused Imports = Fix All | `Ctrl + S`                 | With the Ruff extension and onSave set as in `settings.json` |
+| Re-run Last Run Config                 |                            |                                                              |
+| Stage File Partially                   |                            |                                                              |
+| File Name Autocomplete in Commit Msg   |                            |                                                              |
+| Evaluate in Debug Console              | `Ctrl + Alt + E`           | User Defined                                                 |
 
 ## Plugins
 
