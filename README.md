@@ -96,7 +96,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 | `Ctrl + D`                                          | Highlight All Occurrences                                                      |
 | `Ctrl + K + J`                                      | Expand All Lines of Code                                                       |
 | `Ctrl + K + 0`                                      | Fold All Lines of Code                                                         |
-| `Ctrl + K + ]`                                      | Unfold Recursively (Unfold Current Line)                                       |
+| `Ctrl + Shift + ]`                                  | Unfold (Current Line)                                                          |
 | `Alt + Z`                                           | Toggle Word Wrap                                                               |
 | `F12`                                               | Go to Definition / Show Implementations                                        |
 | `Alt + Right / Left Arrow`                          | Navigate Forward / Backward                                                    |
