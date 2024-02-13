@@ -254,3 +254,4 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
   - there is [not exactly a huge effort](https://github.com/microsoft/vscode-python/issues/15018) from VSCode dev team to get this working
 - [ ] Get VSCode working with [unclean git repo](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout)
 - [ ] More specific instructions on how to configure User / Profile and Workspace tasks
+- [ ] Show there is a search result or git diff even for folded code
