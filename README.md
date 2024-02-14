@@ -242,6 +242,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 - To start the terminal press ``Ctrl + ` ``
 - You can change color / name of the terminal window
+- It can be useful to set [your custom terminal profile](https://code.visualstudio.com/docs/terminal/profiles) using for example the setting `terminal.integrated.profiles.windows`
 
 ## Unresolved TODOs
 
