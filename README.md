@@ -165,6 +165,7 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 ### Python
 
 - `Python`
+- `Pylance` - auto imports for Python (and much more)
 - `Jupyter` - Jupyter notebook support
 - `Test Explorer UI` - Prettier tests
 - `Ruff` - Linting, formatting and import sorting, faster (see `.vscode/settings.json` for examples)
