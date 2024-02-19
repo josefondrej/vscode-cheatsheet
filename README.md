@@ -258,3 +258,5 @@ or [linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 - [ ] Get VSCode working with [unclean git repo](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout)
 - [ ] More specific instructions on how to configure User / Profile and Workspace tasks
 - [ ] Show there is a search result or git diff even for folded code
+- [ ] Convince Pylance to index all directories in workspace with multiple directories
+
